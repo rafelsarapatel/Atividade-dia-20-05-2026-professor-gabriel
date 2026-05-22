@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    cadeia nome
+    inteiro soma, nota1, nota2, nota3
+    escreva("digite seu nome: ")
+    leia(nome)
+
+    escreva("digite sua nota em portugues:")
+    leia(nota1)
+    
+    escreva("digite sua nota em matematica:")
+    leia(nota2)
+
+    escreva("digite sua nota em conhecimento gerais:")
+    leia(nota3)
+
+    soma = nota1 + nota2 + nota3 
+    soma = soma / 3
+
+    se(soma >= 7){
+    escreva(nome, " sua media foi:",soma," voce foi aprovado.")}
+    se(soma <=5){
+    escreva(nome," SUA MEDIA FOI:",soma," VOCE FOI REPROVADO!!!")}
+
+    
+    
+  }
+}
