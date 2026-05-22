@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+
+    cadeia senha
+    inteiro contador
+
+    contador = 1
+
+    enquanto(contador <= 3){
+
+      escreva("Digite sua senha: ")
+      leia(senha)
+
+      se(senha == "2025"){
+        escreva("Acesso permitido!")
+        retorne
+      }
+
+      escreva("Senha incorreta!\n")
+
+      contador = contador + 1
+      limpa()
+    }
+
+    escreva("Acesso negado!")
+
+  }
+}
