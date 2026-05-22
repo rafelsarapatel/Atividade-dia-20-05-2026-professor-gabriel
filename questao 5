@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro valor1, valor2, valor3
+    escreva("digite o primeiro numero:")
+    leia(valor1)
+    escreva("digite o segundo numero:")
+    leia(valor2)
+    escreva("digite o segundo numero:")
+    leia(valor3)
+
+    se(valor1 > valor2 e valor2 > valor3){
+    escreva("primeiro:",valor1,"\nsegundo:",valor2,"\nterceiro",valor3)}
+
+    se(valor2 > valor1 e valor1 > valor3){
+    escreva("primeiro:",valor2,"\nsegundo:",valor1,"\nterceiro",valor3)}
+
+    se(valor3 > valor2 e valor2 > valor1){
+    escreva("primeiro:",valor3,"\nsegundo:",valor2,"\nterceiro",valor1)}
+  }
+}
