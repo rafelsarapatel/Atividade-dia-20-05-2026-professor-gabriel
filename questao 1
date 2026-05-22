@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real valor1, valor2
+    inteiro troca
+
+    escreva("digite o primeiro numero\n")
+    leia(valor1)
+    escreva("digite segundo numero\n")
+    leia(valor2)
+
+    escreva("primeiro numero:",valor2, "\nsegundo numero:", valor1)
+
+    
+  }
+}
